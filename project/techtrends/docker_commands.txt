@@ -1,0 +1,8 @@
+## Docker command to build the application 
+docker build -t diogosilverio/techtrends .
+
+## Docker command to run the application
+docker run -d --name techtrends -p 7111:3111 diogosilverio/techtrends
+
+## Docker commands used to get the application logs
+docker logs -f techtrends
